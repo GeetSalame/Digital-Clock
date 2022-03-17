@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Digital Clock</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="app.js"></script>
+</head>
+
+<body>
+    <nav id="navbar">
+        <span>
+            <a href="#">
+                <button class="btn">Clock</button>
+            </a>
+            <a href="#stopwatch">
+                <button id="stopwatchbtn" class="btn">stopwatch</button>
+            </a>
+        </span>
+        <button id="themeButton" class="btn" onclick="themechange()">Change theme</button>
+    </nav>
+
+    <section id="thewatch">
+        <h1>Hello I am Digital Clock</h1>
+        <div class="container">
+            <div id="datesection">
+                <span id="day">Day</span>,
+                <span id="month">Month</span>
+                <span id="date">00</span>
+                <span id="year">0000</span>
+            </div>
+            <div id="timesection">
+                <span id="hour">00</span> <span class="colon">:</span>
+                <span id="minute">00</span> <span class="colon">:</span>
+                <span id="seconds">00</span>
+                <span id="ampm"></span>
+            </div>
+        </div>
+    </section>
+
+    <section id="stopwatch">
+        <h1>Hello I am StopWatch</h1>
+        <div class="container">
+            <div id="timesection" class="Stimesection">
+                <span id="Shour">00</span><span class="Sletter">h</span> <span>:</span>
+                <span id="Sminute">00</span><span class="Sletter">m</span> <span>:</span>
+                <span id="Sseconds">00</span><span class="Sletter">s</span> <br>
+                <span id="Smseconds">00</span><span class="Sletter"> ms</span>
+            </div>
+            <div id="Sbuttons">
+                <button id="SstartBtn" onclick="Sstart()" class="btn">Start</button>
+                <button onclick="Sstop()" class="btn">Stop</button>
+                <button onclick="Sreset()" class="btn">Reset</button>
+            </div>
+        </div>
+    </section>
+    <div id="rights">
+        Made by <a href="https://github.com/GeetSalame" target="_blank">Geet Salame</a>
+    </div>
+</body>
+
+</html>

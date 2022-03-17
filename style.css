@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@300&family=Noto+San+JP:wght@100&family=Noto+Sans+KR:wght@700;900&family=Poppins:wght@300&family=Roboto&display=swap');
+
+*{
+    transition: all .5s ease;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: .15rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    /* width: 100vw; */
+    height: 150vh;
+    text-align: center;
+    background-image: linear-gradient(180deg, rgb(6, 0, 22), rgb(0, 0, 0));
+    color: white;
+}
+.white-body{
+    background-image: linear-gradient(180deg, rgb(203, 184, 255), rgb(255, 255, 255));
+    color: black;
+}
+
+.container {
+    font-size: larger;
+    letter-spacing: .2rem;
+    line-height: 3rem;
+    /* border: 10px solid rgb(0, 174, 255); */
+    border: 7px solid rgb(149, 230, 255);
+    border-radius: 30px;
+    padding: 40px 50px;
+    -webkit-box-reflect: below 10px linear-gradient(transparent, rgba(255, 255, 255, 0.2));
+    box-shadow: 0px 0px 5px rgb(0, 174, 255);
+    background-image: linear-gradient(235deg, black, rgb(1, 0, 19));
+    transition: all 1s ease;
+}
+.container:hover{
+    box-shadow: 0px 0px 20px rgb(0, 174, 255);
+}
+#timesection {
+    font-size: xxx-large;
+    font-weight: bold;
+}
+#Smseconds{
+    font-size: x-large;
+}
+.Sletter{
+    font-size: small;
+}
+#ampm {
+    /* background-color: aqua; */
+    font-size: large;
+}
+
+#rights{
+    padding: 0 1%;
+    margin-top: auto;
+}
+#rights a{
+    font-size: large;
+    text-decoration:none;
+    letter-spacing: .15rem;
+    color: inherit;
+}
+#rights a:hover{
+    font-weight: bold;
+}
+
+
+#navbar{
+    position: fixed;
+    top: 0%;
+    display: flex;
+    justify-content:space-between;
+    /* border: 2px solid red; */
+    width: 100%;
+    background-color: rgba(2, 0, 31, 0.582);
+    backdrop-filter: blur(10px);
+    z-index: 100;
+    padding: 1% 5%;
+}
+button{
+    font-family: inherit;
+    background-color: transparent;
+    border: none;
+    color: white;
+    text-transform: uppercase;
+    /* border-radius: 5px; */
+    letter-spacing: .1rem;
+    padding: 1px 10px 0px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+}
+button:hover{
+    text-decoration: underline;
+    /* box-shadow: 0 0 5px black; */
+}
+
+.colon{
+    transition: all .1s ease;
+}
+
+h1{
+    font-size: 2rem;
+    letter-spacing: .2rem;
+}
+
+#thewatch{
+    /* border: 2px solid red; */
+    margin-top: 10%;
+    margin-bottom: 150px;
+}
+
+#stopwatch{
+
+}
+
+#Sbuttons{
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0px 0px;
+}
+
+#Sbuttons button{
+    letter-spacing: .2rem;
+}
+
+.Stimesection{
+    /* font-size: 1rem; */
+}
