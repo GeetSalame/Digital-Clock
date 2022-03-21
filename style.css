@@ -141,6 +141,11 @@ h1{
     #timesection{
         font-size: xx-large;
     }
+    .container{
+        padding: 20px 30px;
+        margin: 0% 5%;
+        border-radius: 20px;
+    }
 }
 @media screen and (max-width : 400px) {
     #timesection{
@@ -151,10 +156,6 @@ h1{
     }
     h1{
         font-size: 1.3rem;
-    }
-    .container{
-        padding: 20px 30px;
-        border-radius: 20px;
     }
     button{
         font-size: x-small;
@@ -169,9 +170,6 @@ h1{
 @media screen and (max-width : 355px) {
     #datesection{
         font-size: x-small;
-    }
-    .container{
-        margin: 0% 5%;
     }
     #timesection{
         font-size: initial;
